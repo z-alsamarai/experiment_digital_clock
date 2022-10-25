@@ -1,0 +1,19 @@
+body {
+    background-color: #000000;
+}
+@font-face {
+    font-family: 'digital-7';
+    src: url('/static/fonts/digital-7.ttf');
+}
+.clock{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #7af8ff;
+    font-size: 65px;
+    font-family: 'digital-7';
+    src: local('digital-7'), url('/static/fonts/digital-7.ttf') format('truetype');
+    text-align: center;
+    letter-spacing: 7px;
+}
