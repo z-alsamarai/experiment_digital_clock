@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'digital-7';
-    src: url('/static/fonts/digital-7.ttf');
+    src: url('static/fonts/digital-7.ttf');
 }
 
 :root {
@@ -98,7 +98,7 @@ body {
     color: var(--darkt);
     font-size: 105px;
     font-family: 'digital-7';
-    src: local('digital-7'), url('/static/fonts/digital-7.ttf') format('truetype');
+    src: local('digital-7'), url('static/fonts/digital-7.ttf') format('truetype');
     text-align: center;
     letter-spacing: 7px;
 }
