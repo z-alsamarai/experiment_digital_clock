@@ -1,3 +1,9 @@
+function tdnn() {
+    document.getElementsByClassName("moon")[0].classList.toggle("sun");
+    document.getElementsByClassName("tdnn")[0].classList.toggle("day");
+    document.getElementsByClassName("clock")[0].classList.toggle("darkClock");
+    document.getElementsByTagName("BODY")[0].classList.toggle("light");
+}
 function showTime() {
 
     // Get the current time
